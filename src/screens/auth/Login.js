@@ -34,15 +34,12 @@ import {Commons} from '../../utils';
 import {checkNotificationPermission} from '../../services/NotificationService';
 
 function Login(props) {
-  // var baseURLRef = React.useRef(null);
   var userNameRef = React.useRef(null);
   var passwordRef = React.useRef(null);
 
   const dispatch = useDispatch();
   const loader = useSelector(state => state.common.loader);
 
-  // const [baseURL, setBaseURL] = useState('');
-  // const [baseURLErr, setBaseURLErr] = useState('');
   const [userName, setUserName] = useState('');
   const [userNameErr, setUserNameErr] = useState('');
   const [password, setPassword] = useState('');
@@ -50,7 +47,6 @@ function Login(props) {
   const [loginAsErr, setLoginAsErr] = useState('');
   const [deviceName, setDeviceName] = useState('');
   const [selectedOptType, setSelectedOptType] = useState('');
-  // const [baseURLErrorV, setBaseURLErrorV] = useState(false);
   const [userNameErrorV, setUserNameErrorV] = useState(false);
   const [passwordErrorV, setPasswordErrorV] = useState(false);
   const [loginAsErrorV, setLoginAsErrorV] = useState(false);
@@ -66,13 +62,6 @@ function Login(props) {
       setDeviceName(name);
     });
   };
-
-  // const onBaseURLChange = async data => {
-  //   await AsyncStorage.setItem('baseLink', data);
-  //   setBaseURL(data.toLowerCase());
-  //   setBaseURLErr('');
-  //   setBaseURLErrorV(false);
-  // };
 
   const onUserNameChange = data => {
     setUserName(data.toLowerCase());
@@ -102,11 +91,6 @@ function Login(props) {
   const onSubmit = async () => {
     let fcmToken = await AsyncStorage.getItem('fcmToken');
     hideKeyboard();
-    // if (!isValidHttpUrl(baseURL).status) {
-    //   setBaseURLErrorV(true);
-    //   setBaseURLErr(isValidHttpUrl(baseURL, 'Please enter a valid url').error);
-    //   return;
-    // }
     if (!validateInput(userName).status) {
       setUserNameErrorV(true);
       setUserNameErr(validateInput(userName, 'Please enter username').error);
@@ -185,23 +169,6 @@ function Login(props) {
                 children={'Hi there! Nice to see you again.'}
                 style={Styles.login_desc_txt}
               />
-              {/* <View style={Styles.login_input1_view}>
-                <TextInput
-                  ref={ref => {
-                    baseURLRef = ref;
-                  }}
-                  name="baseurl"
-                  value={baseURL}
-                  onChangeText={onBaseURLChange}
-                  keyboardType="default"
-                  returnKeyType="next"
-                  onSubmitEditing={() => userNameRef.focus()}
-                  placeholder="Base URL"
-                  placeholderTextColor={COLORS.gray}
-                  style={Styles.login_input_text}
-                />
-                {baseURLErrorV && <ErrorMessage message={baseURLErr} />}
-              </View> */}
               <View style={Styles.login_input1_view}>
                 <TextInput
                   ref={ref => {
