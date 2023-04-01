@@ -1,4 +1,4 @@
-package com.first4connect.lmdc;
+package com.first4connect.cpmc;
 
 import com.facebook.react.ReactActivity;
 import android.os.Bundle;
@@ -17,6 +17,6 @@ public class MainActivity extends ReactActivity {
   }
   @Override
   protected String getMainComponentName() {
-    return "LMDC";
+    return "CPMC";
   }
 }

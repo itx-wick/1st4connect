@@ -1,12 +1,12 @@
 import axios from 'react-native-axios';
 
-let BASE_URL_SERVER = 'https://webportal.lmdc.edu.pk/api/app.php/';
+let BASE_URL_SERVER = 'http://portal.cpmc.edu.pk/api/app.php/';
 export const postApiCall = async (endPoint, data) => {
   return new Promise((resolve, reject) => {
     let headers = {
       'Content-Type': 'application/json',
     };
-
+    console.log(BASE_URL_SERVER + endPoint);
     axios
       .post(BASE_URL_SERVER + `${endPoint}`, data, {headers: headers})
       .then(resp => {
