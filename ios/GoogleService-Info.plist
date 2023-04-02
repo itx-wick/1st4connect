@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
-	<string>397130576503-3uddsjgc4l2ootnqj371ttvdq9f7lasv.apps.googleusercontent.com</string>
+	<string>875528502337-rlerdjpiebc56i5g4p184uvdnpkgprlo.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.397130576503-3uddsjgc4l2ootnqj371ttvdq9f7lasv</string>
+	<string>com.googleusercontent.apps.875528502337-rlerdjpiebc56i5g4p184uvdnpkgprlo</string>
 	<key>API_KEY</key>
-	<string>AIzaSyBxE4vZRgvdFEY08RoIlDqS_LkkbRF0p8g</string>
+	<string>AIzaSyCPNydj8eV1rDENAKBuQ8nlR665gd4AKPI</string>
 	<key>GCM_SENDER_ID</key>
-	<string>397130576503</string>
+	<string>875528502337</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>org.reactjs.native.example.lmdc</string>
+	<string>org.reactjs.native.test.yeslms</string>
 	<key>PROJECT_ID</key>
-	<string>lmdc-94046</string>
+	<string>yeslms</string>
 	<key>STORAGE_BUCKET</key>
-	<string>lmdc-94046.appspot.com</string>
+	<string>yeslms.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -29,6 +29,6 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:397130576503:ios:55b928ec88b8f42ba6cc72</string>
+	<string>1:875528502337:ios:16ea5193b9922bf1919ac0</string>
 </dict>
 </plist>

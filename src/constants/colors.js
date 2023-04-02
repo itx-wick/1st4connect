@@ -1,8 +1,8 @@
 import Config from 'react-native-config';
 
 export default {
-  primary: '#015197',
-  secondary: '#015197',
+  primary: '#0d9347',
+  secondary: '#0d9347',
   white: '#FFFFFF',
   offWhite: '#f8f8ff',
   whiteOpacity: '#c2c2c2',

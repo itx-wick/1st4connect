@@ -1,33 +1,62 @@
 {
   "project_info": {
-    "project_number": "975075443034",
-    "project_id": "uol-38f08",
-    "storage_bucket": "uol-38f08.appspot.com"
+    "project_number": "286772647736",
+    "project_id": "yes-lms",
+    "storage_bucket": "yes-lms.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:975075443034:android:fe883caf1c33cd7a0cb363",
+        "mobilesdk_app_id": "1:286772647736:android:7db46edc27654d8dab13cd",
         "android_client_info": {
-          "package_name": "com.first4connect.uol"
+          "package_name": "com.first4connect.yeslms"
         }
       },
       "oauth_client": [
         {
-          "client_id": "975075443034-61d72bkr7vq8hverim2pr80cskhq2ecq.apps.googleusercontent.com",
+          "client_id": "286772647736-7app3tqnj5854snmc021hhajcpburuq9.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyDlePdhyUmj_w_g4YKIuW5mgTzIL9u1gPw"
+          "current_key": "AIzaSyDR0liuxGR30v57Tj_yyVe0tDUoaSD7jSk"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "975075443034-61d72bkr7vq8hverim2pr80cskhq2ecq.apps.googleusercontent.com",
+              "client_id": "286772647736-7app3tqnj5854snmc021hhajcpburuq9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:286772647736:android:0dd52fb7b44e131bab13cd",
+        "android_client_info": {
+          "package_name": "com.yeslms.www"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "286772647736-7app3tqnj5854snmc021hhajcpburuq9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDR0liuxGR30v57Tj_yyVe0tDUoaSD7jSk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "286772647736-7app3tqnj5854snmc021hhajcpburuq9.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

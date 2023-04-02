@@ -8,7 +8,7 @@ pod 'Firebase', :modular_headers => true
 pod 'FirebaseCore', :modular_headers => true
 pod 'GoogleUtilities', :modular_headers => true
 
-target 'UOL' do
+target 'YESH' do
   config = use_native_modules!
 
   use_react_native!(
@@ -31,7 +31,7 @@ target 'UOL' do
 
   pod 'react-native-image-resizer', :path => '../node_modules/react-native-image-resizer'
 
-  target 'UOLTests' do
+  target 'YESHTests' do
     inherit! :complete
     # Pods for testing
   end
