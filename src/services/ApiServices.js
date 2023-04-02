@@ -1,6 +1,6 @@
 import axios from 'react-native-axios';
 
-let BASE_URL_SERVER = 'http://portal.cpmc.edu.pk/api/app.php/';
+let BASE_URL_SERVER = 'https://webportal.rmcsargodha.edu.pk/api/app.php/';
 export const postApiCall = async (endPoint, data) => {
   return new Promise((resolve, reject) => {
     let headers = {

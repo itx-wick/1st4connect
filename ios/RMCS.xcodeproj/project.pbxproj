@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00E356F31AD99517003FC87E /* CPMCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* CPMCTests.m */; };
+		00E356F31AD99517003FC87E /* RMCSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* RMCSTests.m */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		18A8185F29D8C91B0094C0CE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 18A8185E29D8C91B0094C0CE /* GoogleService-Info.plist */; };
-		64B009CC6341B627F2A60FE0 /* libPods-CPMC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EFD526A30930DB6CF7D78A25 /* libPods-CPMC.a */; };
+		181DA49B29D8FE280093A0FA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 181DA49A29D8FE260093A0FA /* GoogleService-Info.plist */; };
+		64B009CC6341B627F2A60FE0 /* libPods-RMCS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EFD526A30930DB6CF7D78A25 /* libPods-RMCS.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		FA254207CEF61D250E2ED849 /* libPods-CPMC-CPMCTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FE61EE32BD83767A0B3C5955 /* libPods-CPMC-CPMCTests.a */; };
+		FA254207CEF61D250E2ED849 /* libPods-RMCS-RMCSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FE61EE32BD83767A0B3C5955 /* libPods-RMCS-RMCSTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,29 +23,29 @@
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = CPMC;
+			remoteInfo = RMCS;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00E356EE1AD99517003FC87E /* CPMCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CPMCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356EE1AD99517003FC87E /* RMCSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RMCSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* CPMCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CPMCTests.m; sourceTree = "<group>"; };
-		0DAF9D34BFF0C014F29D55CB /* Pods-CPMC-CPMCTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CPMC-CPMCTests.debug.xcconfig"; path = "Target Support Files/Pods-CPMC-CPMCTests/Pods-CPMC-CPMCTests.debug.xcconfig"; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* CPMC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CPMC.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = CPMC/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = CPMC/AppDelegate.m; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = CPMC/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = CPMC/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = CPMC/main.m; sourceTree = "<group>"; };
-		18A8185E29D8C91B0094C0CE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = CPMC/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		B7BB201394E9355E316959B0 /* Pods-CPMC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CPMC.debug.xcconfig"; path = "Target Support Files/Pods-CPMC/Pods-CPMC.debug.xcconfig"; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* RMCSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RMCSTests.m; sourceTree = "<group>"; };
+		0DAF9D34BFF0C014F29D55CB /* Pods-RMCS-RMCSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RMCS-RMCSTests.debug.xcconfig"; path = "Target Support Files/Pods-RMCS-RMCSTests/Pods-RMCS-RMCSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* RMCS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RMCS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = RMCS/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = RMCS/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = RMCS/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = RMCS/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = RMCS/main.m; sourceTree = "<group>"; };
+		181DA49A29D8FE260093A0FA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = RMCS/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B7BB201394E9355E316959B0 /* Pods-RMCS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RMCS.debug.xcconfig"; path = "Target Support Files/Pods-RMCS/Pods-RMCS.debug.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
-		EFD526A30930DB6CF7D78A25 /* libPods-CPMC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CPMC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F21F1880D508EC0A89355EDB /* Pods-CPMC-CPMCTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CPMC-CPMCTests.release.xcconfig"; path = "Target Support Files/Pods-CPMC-CPMCTests/Pods-CPMC-CPMCTests.release.xcconfig"; sourceTree = "<group>"; };
-		F2CA999112301920C6DAC2BA /* Pods-CPMC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CPMC.release.xcconfig"; path = "Target Support Files/Pods-CPMC/Pods-CPMC.release.xcconfig"; sourceTree = "<group>"; };
-		FE61EE32BD83767A0B3C5955 /* libPods-CPMC-CPMCTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CPMC-CPMCTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFD526A30930DB6CF7D78A25 /* libPods-RMCS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RMCS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F21F1880D508EC0A89355EDB /* Pods-RMCS-RMCSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RMCS-RMCSTests.release.xcconfig"; path = "Target Support Files/Pods-RMCS-RMCSTests/Pods-RMCS-RMCSTests.release.xcconfig"; sourceTree = "<group>"; };
+		F2CA999112301920C6DAC2BA /* Pods-RMCS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RMCS.release.xcconfig"; path = "Target Support Files/Pods-RMCS/Pods-RMCS.release.xcconfig"; sourceTree = "<group>"; };
+		FE61EE32BD83767A0B3C5955 /* libPods-RMCS-RMCSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RMCS-RMCSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA254207CEF61D250E2ED849 /* libPods-CPMC-CPMCTests.a in Frameworks */,
+				FA254207CEF61D250E2ED849 /* libPods-RMCS-RMCSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,20 +61,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				64B009CC6341B627F2A60FE0 /* libPods-CPMC.a in Frameworks */,
+				64B009CC6341B627F2A60FE0 /* libPods-RMCS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00E356EF1AD99517003FC87E /* CPMCTests */ = {
+		00E356EF1AD99517003FC87E /* RMCSTests */ = {
 			isa = PBXGroup;
 			children = (
-				00E356F21AD99517003FC87E /* CPMCTests.m */,
+				00E356F21AD99517003FC87E /* RMCSTests.m */,
 				00E356F01AD99517003FC87E /* Supporting Files */,
 			);
-			path = CPMCTests;
+			path = RMCSTests;
 			sourceTree = "<group>";
 		};
 		00E356F01AD99517003FC87E /* Supporting Files */ = {
@@ -85,10 +85,10 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		13B07FAE1A68108700A75B9A /* CPMC */ = {
+		13B07FAE1A68108700A75B9A /* RMCS */ = {
 			isa = PBXGroup;
 			children = (
-				18A8185E29D8C91B0094C0CE /* GoogleService-Info.plist */,
+				181DA49A29D8FE260093A0FA /* GoogleService-Info.plist */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
@@ -96,15 +96,15 @@
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
-			name = CPMC;
+			name = RMCS;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				EFD526A30930DB6CF7D78A25 /* libPods-CPMC.a */,
-				FE61EE32BD83767A0B3C5955 /* libPods-CPMC-CPMCTests.a */,
+				EFD526A30930DB6CF7D78A25 /* libPods-RMCS.a */,
+				FE61EE32BD83767A0B3C5955 /* libPods-RMCS-RMCSTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -112,10 +112,10 @@
 		35B7DC4D8B751E0A998DDC1C /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				B7BB201394E9355E316959B0 /* Pods-CPMC.debug.xcconfig */,
-				F2CA999112301920C6DAC2BA /* Pods-CPMC.release.xcconfig */,
-				0DAF9D34BFF0C014F29D55CB /* Pods-CPMC-CPMCTests.debug.xcconfig */,
-				F21F1880D508EC0A89355EDB /* Pods-CPMC-CPMCTests.release.xcconfig */,
+				B7BB201394E9355E316959B0 /* Pods-RMCS.debug.xcconfig */,
+				F2CA999112301920C6DAC2BA /* Pods-RMCS.release.xcconfig */,
+				0DAF9D34BFF0C014F29D55CB /* Pods-RMCS-RMCSTests.debug.xcconfig */,
+				F21F1880D508EC0A89355EDB /* Pods-RMCS-RMCSTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -130,9 +130,9 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				13B07FAE1A68108700A75B9A /* CPMC */,
+				13B07FAE1A68108700A75B9A /* RMCS */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* CPMCTests */,
+				00E356EF1AD99517003FC87E /* RMCSTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				35B7DC4D8B751E0A998DDC1C /* Pods */,
@@ -145,8 +145,8 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* CPMC.app */,
-				00E356EE1AD99517003FC87E /* CPMCTests.xctest */,
+				13B07F961A680F5B00A75B9A /* RMCS.app */,
+				00E356EE1AD99517003FC87E /* RMCSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -154,9 +154,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00E356ED1AD99517003FC87E /* CPMCTests */ = {
+		00E356ED1AD99517003FC87E /* RMCSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "CPMCTests" */;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "RMCSTests" */;
 			buildPhases = (
 				7DD0AF7CE7CEA2293192A5FF /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
@@ -170,14 +170,14 @@
 			dependencies = (
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
-			name = CPMCTests;
-			productName = CPMCTests;
-			productReference = 00E356EE1AD99517003FC87E /* CPMCTests.xctest */;
+			name = RMCSTests;
+			productName = RMCSTests;
+			productReference = 00E356EE1AD99517003FC87E /* RMCSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		13B07F861A680F5B00A75B9A /* CPMC */ = {
+		13B07F861A680F5B00A75B9A /* RMCS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "CPMC" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "RMCS" */;
 			buildPhases = (
 				097CCCAC959ED9E741026A28 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
@@ -193,9 +193,9 @@
 			);
 			dependencies = (
 			);
-			name = CPMC;
-			productName = CPMC;
-			productReference = 13B07F961A680F5B00A75B9A /* CPMC.app */;
+			name = RMCS;
+			productName = RMCS;
+			productReference = 13B07F961A680F5B00A75B9A /* RMCS.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -215,7 +215,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "CPMC" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "RMCS" */;
 			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -228,8 +228,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* CPMC */,
-				00E356ED1AD99517003FC87E /* CPMCTests */,
+				13B07F861A680F5B00A75B9A /* RMCS */,
+				00E356ED1AD99517003FC87E /* RMCSTests */,
 			);
 		};
 /* End PBXProject section */
@@ -248,7 +248,7 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
-				18A8185F29D8C91B0094C0CE /* GoogleService-Info.plist in Resources */,
+				181DA49B29D8FE280093A0FA /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,7 +284,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-CPMC-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-RMCS-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -297,15 +297,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-CPMC-CPMCTests/Pods-CPMC-CPMCTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-RMCS-RMCSTests/Pods-RMCS-RMCSTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-CPMC-CPMCTests/Pods-CPMC-CPMCTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-RMCS-RMCSTests/Pods-RMCS-RMCSTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CPMC-CPMCTests/Pods-CPMC-CPMCTests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RMCS-RMCSTests/Pods-RMCS-RMCSTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		71A2D46F0CF01C37F05FABDF /* [CP] Copy Pods Resources */ = {
@@ -314,15 +314,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-CPMC-CPMCTests/Pods-CPMC-CPMCTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-RMCS-RMCSTests/Pods-RMCS-RMCSTests-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-CPMC-CPMCTests/Pods-CPMC-CPMCTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-RMCS-RMCSTests/Pods-RMCS-RMCSTests-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CPMC-CPMCTests/Pods-CPMC-CPMCTests-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RMCS-RMCSTests/Pods-RMCS-RMCSTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		7DD0AF7CE7CEA2293192A5FF /* [CP] Check Pods Manifest.lock */ = {
@@ -340,7 +340,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-CPMC-CPMCTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-RMCS-RMCSTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -366,15 +366,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-CPMC/Pods-CPMC-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-RMCS/Pods-RMCS-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-CPMC/Pods-CPMC-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-RMCS/Pods-RMCS-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CPMC/Pods-CPMC-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RMCS/Pods-RMCS-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -402,15 +402,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-CPMC/Pods-CPMC-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-RMCS/Pods-RMCS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-CPMC/Pods-CPMC-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-RMCS/Pods-RMCS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CPMC/Pods-CPMC-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RMCS/Pods-RMCS-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -420,7 +420,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00E356F31AD99517003FC87E /* CPMCTests.m in Sources */,
+				00E356F31AD99517003FC87E /* RMCSTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,7 +438,7 @@
 /* Begin PBXTargetDependency section */
 		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* CPMC */;
+			target = 13B07F861A680F5B00A75B9A /* RMCS */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -446,14 +446,14 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0DAF9D34BFF0C014F29D55CB /* Pods-CPMC-CPMCTests.debug.xcconfig */;
+			baseConfigurationReference = 0DAF9D34BFF0C014F29D55CB /* Pods-RMCS-RMCSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = CPMCTests/Info.plist;
+				INFOPLIST_FILE = RMCSTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -467,17 +467,17 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CPMC.app/CPMC";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RMCS.app/RMCS";
 			};
 			name = Debug;
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F21F1880D508EC0A89355EDB /* Pods-CPMC-CPMCTests.release.xcconfig */;
+			baseConfigurationReference = F21F1880D508EC0A89355EDB /* Pods-RMCS-RMCSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
-				INFOPLIST_FILE = CPMCTests/Info.plist;
+				INFOPLIST_FILE = RMCSTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -491,20 +491,20 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CPMC.app/CPMC";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RMCS.app/RMCS";
 			};
 			name = Release;
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B7BB201394E9355E316959B0 /* Pods-CPMC.debug.xcconfig */;
+			baseConfigurationReference = B7BB201394E9355E316959B0 /* Pods-RMCS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = P972RNL33J;
 				ENABLE_BITCODE = NO;
-				INFOPLIST_FILE = CPMC/Info.plist;
+				INFOPLIST_FILE = RMCS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -514,8 +514,8 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = org.reactjs.native.example.cpmc;
-				PRODUCT_NAME = CPMC;
+				PRODUCT_BUNDLE_IDENTIFIER = org.reactjs.native.example.rmcs;
+				PRODUCT_NAME = RMCS;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -524,13 +524,13 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F2CA999112301920C6DAC2BA /* Pods-CPMC.release.xcconfig */;
+			baseConfigurationReference = F2CA999112301920C6DAC2BA /* Pods-RMCS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = P972RNL33J;
-				INFOPLIST_FILE = CPMC/Info.plist;
+				INFOPLIST_FILE = RMCS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -540,8 +540,8 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = org.reactjs.native.example.cpmc;
-				PRODUCT_NAME = CPMC;
+				PRODUCT_BUNDLE_IDENTIFIER = org.reactjs.native.example.rmcs;
+				PRODUCT_NAME = RMCS;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -673,7 +673,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "CPMCTests" */ = {
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "RMCSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00E356F61AD99517003FC87E /* Debug */,
@@ -682,7 +682,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "CPMC" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "RMCS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -691,7 +691,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "CPMC" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "RMCS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,

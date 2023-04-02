@@ -1,4 +1,4 @@
-package com.first4connect.cpmc;
+package com.first4connect.rmcs;
 
 import com.facebook.react.ReactActivity;
 import android.os.Bundle;
@@ -17,6 +17,6 @@ public class MainActivity extends ReactActivity {
   }
   @Override
   protected String getMainComponentName() {
-    return "CPMC";
+    return "RMCS";
   }
 }

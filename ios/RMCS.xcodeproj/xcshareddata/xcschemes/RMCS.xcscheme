@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-               BuildableName = "CPMC.app"
-               BlueprintName = "CPMC"
-               ReferencedContainer = "container:CPMC.xcodeproj">
+               BuildableName = "RMCS.app"
+               BlueprintName = "RMCS"
+               ReferencedContainer = "container:RMCS.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "00E356ED1AD99517003FC87E"
-               BuildableName = "CPMCTests.xctest"
-               BlueprintName = "CPMCTests"
-               ReferencedContainer = "container:CPMC.xcodeproj">
+               BuildableName = "RMCSTests.xctest"
+               BlueprintName = "RMCSTests"
+               ReferencedContainer = "container:RMCS.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -55,9 +55,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "CPMC.app"
-            BlueprintName = "CPMC"
-            ReferencedContainer = "container:CPMC.xcodeproj">
+            BuildableName = "RMCS.app"
+            BlueprintName = "RMCS"
+            ReferencedContainer = "container:RMCS.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -72,9 +72,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "CPMC.app"
-            BlueprintName = "CPMC"
-            ReferencedContainer = "container:CPMC.xcodeproj">
+            BuildableName = "RMCS.app"
+            BlueprintName = "RMCS"
+            ReferencedContainer = "container:RMCS.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
