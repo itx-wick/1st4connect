@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "506421935949",
+    "project_id": "cpmc-b3662",
+    "storage_bucket": "cpmc-b3662.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:506421935949:android:fcba7276e099db9b0b0104",
+        "android_client_info": {
+          "package_name": "com.cpmc.www"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "506421935949-e1bc28uhep9pam18uplpdie1bl556sp1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC3VfLZ9GZlGXTk5pXqlaCkDdJnuYJcH84"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "506421935949-e1bc28uhep9pam18uplpdie1bl556sp1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:506421935949:android:d5034c2f939ef9a60b0104",
+        "android_client_info": {
+          "package_name": "com.first4connect.cpmc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "506421935949-e1bc28uhep9pam18uplpdie1bl556sp1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC3VfLZ9GZlGXTk5pXqlaCkDdJnuYJcH84"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "506421935949-e1bc28uhep9pam18uplpdie1bl556sp1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
