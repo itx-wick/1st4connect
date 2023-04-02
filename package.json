@@ -1,5 +1,5 @@
 {
-  "name": "LMDC",
+  "name": "RMDC",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -9,7 +9,7 @@
     "start": "react-native start",
     "test": "jest",
     "lint": "eslint .",
-    "upload": "git add . && git commit -m \"new updates\" && git push -u origin main"
+    "upload": "git add . && git commit -m \"new updates\" && git push origin RMDC"
   },
   "dependencies": {
     "@freakycoder/react-native-bounceable": "^1.0.3",

@@ -161,7 +161,7 @@ function Login(props) {
         <ScrollView>
           <View style={Styles.login_main_cont}>
             <View style={Styles.logo_cont}>
-              <Image source={IMAGES.lmdc_logo} style={Styles.login_logo} />
+              <Image source={IMAGES.rmdc_logo} style={Styles.login_logo} />
             </View>
             <View style={Styles.login_cont}>
               <AppText children={'Welcome'} style={Styles.login_welcome_txt} />
