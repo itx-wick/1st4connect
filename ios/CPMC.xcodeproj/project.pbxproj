@@ -11,7 +11,7 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		18A8185F29D8C91B0094C0CE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 18A8185E29D8C91B0094C0CE /* GoogleService-Info.plist */; };
+		18A72C2F29D904A4000F741A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 18A72C2E29D904A3000F741A /* GoogleService-Info.plist */; };
 		64B009CC6341B627F2A60FE0 /* libPods-CPMC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EFD526A30930DB6CF7D78A25 /* libPods-CPMC.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		FA254207CEF61D250E2ED849 /* libPods-CPMC-CPMCTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FE61EE32BD83767A0B3C5955 /* libPods-CPMC-CPMCTests.a */; };
@@ -38,7 +38,7 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = CPMC/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = CPMC/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = CPMC/main.m; sourceTree = "<group>"; };
-		18A8185E29D8C91B0094C0CE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		18A72C2E29D904A3000F741A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = CPMC/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B7BB201394E9355E316959B0 /* Pods-CPMC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CPMC.debug.xcconfig"; path = "Target Support Files/Pods-CPMC/Pods-CPMC.debug.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
@@ -88,7 +88,7 @@
 		13B07FAE1A68108700A75B9A /* CPMC */ = {
 			isa = PBXGroup;
 			children = (
-				18A8185E29D8C91B0094C0CE /* GoogleService-Info.plist */,
+				18A72C2E29D904A3000F741A /* GoogleService-Info.plist */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
@@ -248,7 +248,7 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
-				18A8185F29D8C91B0094C0CE /* GoogleService-Info.plist in Resources */,
+				18A72C2F29D904A4000F741A /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -53,6 +53,7 @@ function Login(props) {
   const [selectedOption, setSelectedOption] = useState(null);
 
   useEffect(() => {
+    dispatch(setLoader(false));
     checkNotificationPermission();
     getDeviceInfo();
   }, []);
@@ -120,6 +121,7 @@ function Login(props) {
       selectedOptType === 'T' ? END_POINT.T_LOGIN : END_POINT.U_LOGIN;
     postApiCall(endPoint, data)
       .then(res => {
+        console.log('Response', res);
         if (res.Code === 2) {
           Commons.snackBar(res.Message, COLORS.danger);
           dispatch(logout());

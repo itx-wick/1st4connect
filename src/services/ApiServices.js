@@ -6,7 +6,7 @@ export const postApiCall = async (endPoint, data) => {
     let headers = {
       'Content-Type': 'application/json',
     };
-    console.log(BASE_URL_SERVER + endPoint);
+    console.log(BASE_URL_SERVER + endPoint, data);
     axios
       .post(BASE_URL_SERVER + `${endPoint}`, data, {headers: headers})
       .then(resp => {
