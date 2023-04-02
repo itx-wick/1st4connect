@@ -9,7 +9,7 @@
     "start": "react-native start",
     "test": "jest",
     "lint": "eslint .",
-    "upload": "git add . && git commit -m \"new updates\" && git push origin yeslms"
+    "upload": "git add . && git commit -m \"new updates\" && git push origin YESH"
   },
   "dependencies": {
     "@freakycoder/react-native-bounceable": "^1.0.3",
