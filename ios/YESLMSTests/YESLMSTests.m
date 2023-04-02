@@ -7,11 +7,11 @@
 #define TIMEOUT_SECONDS 600
 #define TEXT_TO_LOOK_FOR @"Welcome to React"
 
-@interface YESHTests : XCTestCase
+@interface YESLMSTests : XCTestCase
 
 @end
 
-@implementation YESHTests
+@implementation YESLMSTests
 
 - (BOOL)findSubviewInView:(UIView *)view matching:(BOOL(^)(UIView *view))test
 {

@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00E356F31AD99517003FC87E /* YESHTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* YESHTests.m */; };
+		00E356F31AD99517003FC87E /* YESLMSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* YESLMSTests.m */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		18D0FA6B29D9908F005FEF0B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 18D0FA6A29D9908F005FEF0B /* GoogleService-Info.plist */; };
-		64B009CC6341B627F2A60FE0 /* libPods-YESH.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EFD526A30930DB6CF7D78A25 /* libPods-YESH.a */; };
+		64B009CC6341B627F2A60FE0 /* libPods-YESLMS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EFD526A30930DB6CF7D78A25 /* libPods-YESLMS.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		FA254207CEF61D250E2ED849 /* libPods-YESH-YESHTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FE61EE32BD83767A0B3C5955 /* libPods-YESH-YESHTests.a */; };
+		FA254207CEF61D250E2ED849 /* libPods-YESLMS-YESLMSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FE61EE32BD83767A0B3C5955 /* libPods-YESLMS-YESLMSTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,29 +23,29 @@
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = YESH;
+			remoteInfo = YESLMS;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00E356EE1AD99517003FC87E /* YESHTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YESHTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356EE1AD99517003FC87E /* YESLMSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YESLMSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* YESHTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YESHTests.m; sourceTree = "<group>"; };
-		0DAF9D34BFF0C014F29D55CB /* Pods-YESH-YESHTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YESH-YESHTests.debug.xcconfig"; path = "Target Support Files/Pods-YESH-YESHTests/Pods-YESH-YESHTests.debug.xcconfig"; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* YESH.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YESH.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = YESH/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = YESH/AppDelegate.m; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = YESH/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = YESH/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = YESH/main.m; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* YESLMSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YESLMSTests.m; sourceTree = "<group>"; };
+		0DAF9D34BFF0C014F29D55CB /* Pods-YESLMS-YESLMSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YESLMS-YESLMSTests.debug.xcconfig"; path = "Target Support Files/Pods-YESLMS-YESLMSTests/Pods-YESLMS-YESLMSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* YESLMS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YESLMS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = YESLMS/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = YESLMS/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = YESLMS/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = YESLMS/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = YESLMS/main.m; sourceTree = "<group>"; };
 		18D0FA6A29D9908F005FEF0B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = YESH/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		B7BB201394E9355E316959B0 /* Pods-YESH.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YESH.debug.xcconfig"; path = "Target Support Files/Pods-YESH/Pods-YESH.debug.xcconfig"; sourceTree = "<group>"; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = YESLMS/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B7BB201394E9355E316959B0 /* Pods-YESLMS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YESLMS.debug.xcconfig"; path = "Target Support Files/Pods-YESLMS/Pods-YESLMS.debug.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
-		EFD526A30930DB6CF7D78A25 /* libPods-YESH.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YESH.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F21F1880D508EC0A89355EDB /* Pods-YESH-YESHTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YESH-YESHTests.release.xcconfig"; path = "Target Support Files/Pods-YESH-YESHTests/Pods-YESH-YESHTests.release.xcconfig"; sourceTree = "<group>"; };
-		F2CA999112301920C6DAC2BA /* Pods-YESH.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YESH.release.xcconfig"; path = "Target Support Files/Pods-YESH/Pods-YESH.release.xcconfig"; sourceTree = "<group>"; };
-		FE61EE32BD83767A0B3C5955 /* libPods-YESH-YESHTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YESH-YESHTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFD526A30930DB6CF7D78A25 /* libPods-YESLMS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YESLMS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F21F1880D508EC0A89355EDB /* Pods-YESLMS-YESLMSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YESLMS-YESLMSTests.release.xcconfig"; path = "Target Support Files/Pods-YESLMS-YESLMSTests/Pods-YESLMS-YESLMSTests.release.xcconfig"; sourceTree = "<group>"; };
+		F2CA999112301920C6DAC2BA /* Pods-YESLMS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YESLMS.release.xcconfig"; path = "Target Support Files/Pods-YESLMS/Pods-YESLMS.release.xcconfig"; sourceTree = "<group>"; };
+		FE61EE32BD83767A0B3C5955 /* libPods-YESLMS-YESLMSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YESLMS-YESLMSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA254207CEF61D250E2ED849 /* libPods-YESH-YESHTests.a in Frameworks */,
+				FA254207CEF61D250E2ED849 /* libPods-YESLMS-YESLMSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,20 +61,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				64B009CC6341B627F2A60FE0 /* libPods-YESH.a in Frameworks */,
+				64B009CC6341B627F2A60FE0 /* libPods-YESLMS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00E356EF1AD99517003FC87E /* YESHTests */ = {
+		00E356EF1AD99517003FC87E /* YESLMSTests */ = {
 			isa = PBXGroup;
 			children = (
-				00E356F21AD99517003FC87E /* YESHTests.m */,
+				00E356F21AD99517003FC87E /* YESLMSTests.m */,
 				00E356F01AD99517003FC87E /* Supporting Files */,
 			);
-			path = YESHTests;
+			path = YESLMSTests;
 			sourceTree = "<group>";
 		};
 		00E356F01AD99517003FC87E /* Supporting Files */ = {
@@ -85,7 +85,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		13B07FAE1A68108700A75B9A /* YESH */ = {
+		13B07FAE1A68108700A75B9A /* YESLMS */ = {
 			isa = PBXGroup;
 			children = (
 				18D0FA6A29D9908F005FEF0B /* GoogleService-Info.plist */,
@@ -96,15 +96,15 @@
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
-			name = YESH;
+			name = YESLMS;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				EFD526A30930DB6CF7D78A25 /* libPods-YESH.a */,
-				FE61EE32BD83767A0B3C5955 /* libPods-YESH-YESHTests.a */,
+				EFD526A30930DB6CF7D78A25 /* libPods-YESLMS.a */,
+				FE61EE32BD83767A0B3C5955 /* libPods-YESLMS-YESLMSTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -112,10 +112,10 @@
 		35B7DC4D8B751E0A998DDC1C /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				B7BB201394E9355E316959B0 /* Pods-YESH.debug.xcconfig */,
-				F2CA999112301920C6DAC2BA /* Pods-YESH.release.xcconfig */,
-				0DAF9D34BFF0C014F29D55CB /* Pods-YESH-YESHTests.debug.xcconfig */,
-				F21F1880D508EC0A89355EDB /* Pods-YESH-YESHTests.release.xcconfig */,
+				B7BB201394E9355E316959B0 /* Pods-YESLMS.debug.xcconfig */,
+				F2CA999112301920C6DAC2BA /* Pods-YESLMS.release.xcconfig */,
+				0DAF9D34BFF0C014F29D55CB /* Pods-YESLMS-YESLMSTests.debug.xcconfig */,
+				F21F1880D508EC0A89355EDB /* Pods-YESLMS-YESLMSTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -130,9 +130,9 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				13B07FAE1A68108700A75B9A /* YESH */,
+				13B07FAE1A68108700A75B9A /* YESLMS */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* YESHTests */,
+				00E356EF1AD99517003FC87E /* YESLMSTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				35B7DC4D8B751E0A998DDC1C /* Pods */,
@@ -145,8 +145,8 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* YESH.app */,
-				00E356EE1AD99517003FC87E /* YESHTests.xctest */,
+				13B07F961A680F5B00A75B9A /* YESLMS.app */,
+				00E356EE1AD99517003FC87E /* YESLMSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -154,9 +154,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00E356ED1AD99517003FC87E /* YESHTests */ = {
+		00E356ED1AD99517003FC87E /* YESLMSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "YESHTests" */;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "YESLMSTests" */;
 			buildPhases = (
 				7DD0AF7CE7CEA2293192A5FF /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
@@ -170,14 +170,13 @@
 			dependencies = (
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
-			name = YESHTests;
-			productName = YESHTests;
-			productReference = 00E356EE1AD99517003FC87E /* YESHTests.xctest */;
+			name = YESLMSTests;
+			productReference = 00E356EE1AD99517003FC87E /* YESLMSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		13B07F861A680F5B00A75B9A /* YESH */ = {
+		13B07F861A680F5B00A75B9A /* YESLMS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "YESH" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "YESLMS" */;
 			buildPhases = (
 				097CCCAC959ED9E741026A28 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
@@ -193,9 +192,9 @@
 			);
 			dependencies = (
 			);
-			name = YESH;
-			productName = YESH;
-			productReference = 13B07F961A680F5B00A75B9A /* YESH.app */;
+			name = YESLMS;
+			productName = YESLMS;
+			productReference = 13B07F961A680F5B00A75B9A /* YESLMS.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -215,7 +214,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "YESH" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "YESLMS" */;
 			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -228,8 +227,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* YESH */,
-				00E356ED1AD99517003FC87E /* YESHTests */,
+				13B07F861A680F5B00A75B9A /* YESLMS */,
+				00E356ED1AD99517003FC87E /* YESLMSTests */,
 			);
 		};
 /* End PBXProject section */
@@ -284,7 +283,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-YESH-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-YESLMS-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -297,15 +296,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-YESH-YESHTests/Pods-YESH-YESHTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-YESLMS-YESLMSTests/Pods-YESLMS-YESLMSTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-YESH-YESHTests/Pods-YESH-YESHTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-YESLMS-YESLMSTests/Pods-YESLMS-YESLMSTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YESH-YESHTests/Pods-YESH-YESHTests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YESLMS-YESLMSTests/Pods-YESLMS-YESLMSTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		71A2D46F0CF01C37F05FABDF /* [CP] Copy Pods Resources */ = {
@@ -314,15 +313,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-YESH-YESHTests/Pods-YESH-YESHTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-YESLMS-YESLMSTests/Pods-YESLMS-YESLMSTests-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-YESH-YESHTests/Pods-YESH-YESHTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-YESLMS-YESLMSTests/Pods-YESLMS-YESLMSTests-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YESH-YESHTests/Pods-YESH-YESHTests-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YESLMS-YESLMSTests/Pods-YESLMS-YESLMSTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		7DD0AF7CE7CEA2293192A5FF /* [CP] Check Pods Manifest.lock */ = {
@@ -340,7 +339,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-YESH-YESHTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-YESLMS-YESLMSTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -366,15 +365,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-YESH/Pods-YESH-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-YESLMS/Pods-YESLMS-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-YESH/Pods-YESH-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-YESLMS/Pods-YESLMS-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YESH/Pods-YESH-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YESLMS/Pods-YESLMS-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -402,15 +401,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-YESH/Pods-YESH-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-YESLMS/Pods-YESLMS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-YESH/Pods-YESH-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-YESLMS/Pods-YESLMS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YESH/Pods-YESH-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YESLMS/Pods-YESLMS-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -420,7 +419,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00E356F31AD99517003FC87E /* YESHTests.m in Sources */,
+				00E356F31AD99517003FC87E /* YESLMSTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,7 +437,7 @@
 /* Begin PBXTargetDependency section */
 		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* YESH */;
+			target = 13B07F861A680F5B00A75B9A /* YESLMS */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -446,14 +445,14 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0DAF9D34BFF0C014F29D55CB /* Pods-YESH-YESHTests.debug.xcconfig */;
+			baseConfigurationReference = 0DAF9D34BFF0C014F29D55CB /* Pods-YESLMS-YESLMSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = YESHTests/Info.plist;
+				INFOPLIST_FILE = YESLMSTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -465,19 +464,19 @@
 					"-lc++",
 					"$(inherited)",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.first4connect.yeslms;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YESH.app/YESH";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YESLMS.app/YESLMS";
 			};
 			name = Debug;
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F21F1880D508EC0A89355EDB /* Pods-YESH-YESHTests.release.xcconfig */;
+			baseConfigurationReference = F21F1880D508EC0A89355EDB /* Pods-YESLMS-YESLMSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
-				INFOPLIST_FILE = YESHTests/Info.plist;
+				INFOPLIST_FILE = YESLMSTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -489,22 +488,23 @@
 					"-lc++",
 					"$(inherited)",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.first4connect.yeslms;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YESH.app/YESH";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YESLMS.app/YESLMS";
 			};
 			name = Release;
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B7BB201394E9355E316959B0 /* Pods-YESH.debug.xcconfig */;
+			baseConfigurationReference = B7BB201394E9355E316959B0 /* Pods-YESLMS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = SY9YN3GDLU;
 				ENABLE_BITCODE = NO;
-				INFOPLIST_FILE = YESH/Info.plist;
+				INFOPLIST_FILE = YESLMS/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = YESLMS;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -514,8 +514,8 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = org.reactjs.native.example.yeslms;
-				PRODUCT_NAME = YESH;
+				PRODUCT_BUNDLE_IDENTIFIER = com.first4connect.yeslms;
+				PRODUCT_NAME = YESLMS;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -524,13 +524,14 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F2CA999112301920C6DAC2BA /* Pods-YESH.release.xcconfig */;
+			baseConfigurationReference = F2CA999112301920C6DAC2BA /* Pods-YESLMS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = SY9YN3GDLU;
-				INFOPLIST_FILE = YESH/Info.plist;
+				INFOPLIST_FILE = YESLMS/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = YESLMS;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -540,8 +541,8 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = org.reactjs.native.example.yeslms;
-				PRODUCT_NAME = YESH;
+				PRODUCT_BUNDLE_IDENTIFIER = com.first4connect.yeslms;
+				PRODUCT_NAME = YESLMS;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -673,7 +674,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "YESHTests" */ = {
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "YESLMSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00E356F61AD99517003FC87E /* Debug */,
@@ -682,7 +683,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "YESH" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "YESLMS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -691,7 +692,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "YESH" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "YESLMS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,

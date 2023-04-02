@@ -1,4 +1,4 @@
-package com.first4connect.yesh;
+package com.first4connect.yeslms;
 
 import com.facebook.react.ReactActivity;
 import android.os.Bundle;
