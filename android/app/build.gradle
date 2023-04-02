@@ -132,12 +132,19 @@ android {
 
     compileSdkVersion rootProject.ext.compileSdkVersion
 
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_11
+        targetCompatibility JavaVersion.VERSION_11
+    }
+
     defaultConfig {
         applicationId "com.first4connect.rmcs"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
         versionName "1.0"
+        multiDexEnabled true 
+        vectorDrawables.useSupportLibrary = true
     }
     splits {
         abi {

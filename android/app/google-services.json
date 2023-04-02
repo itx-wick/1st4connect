@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "88354596999",
+    "project_id": "rmcs-6817b",
+    "storage_bucket": "rmcs-6817b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:88354596999:android:624ca59b5adddda3e3b022",
+        "android_client_info": {
+          "package_name": "com.first4connect.rmcs"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "88354596999-2ktajc11k8j89oq8cg6a2m64snu566sa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDILe3jt-pDWusWaO76vl14_28t7VgVyvg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "88354596999-2ktajc11k8j89oq8cg6a2m64snu566sa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
