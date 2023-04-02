@@ -1,222 +1,34 @@
 {
   "project_info": {
-    "project_number": "706347273026",
-    "firebase_url": "https://rmdc-fd8f6.firebaseio.com",
-    "project_id": "rmdc-fd8f6",
-    "storage_bucket": "rmdc-fd8f6.appspot.com"
+    "project_number": "975075443034",
+    "project_id": "uol-38f08",
+    "storage_bucket": "uol-38f08.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:706347273026:android:e8bae8b29571d127",
+        "mobilesdk_app_id": "1:975075443034:android:fe883caf1c33cd7a0cb363",
         "android_client_info": {
-          "package_name": "com.demo_student.www"
+          "package_name": "com.first4connect.uol"
         }
       },
       "oauth_client": [
         {
-          "client_id": "706347273026-8vo824bpm3rtgm9una08hkjsaq2fe2sf.apps.googleusercontent.com",
+          "client_id": "975075443034-61d72bkr7vq8hverim2pr80cskhq2ecq.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyA-af-OSHU5TQbbekvGOUymei5tMjxAmEQ"
+          "current_key": "AIzaSyDlePdhyUmj_w_g4YKIuW5mgTzIL9u1gPw"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "706347273026-8vo824bpm3rtgm9una08hkjsaq2fe2sf.apps.googleusercontent.com",
+              "client_id": "975075443034-61d72bkr7vq8hverim2pr80cskhq2ecq.apps.googleusercontent.com",
               "client_type": 3
-            },
-            {
-              "client_id": "706347273026-ajkrmeenqp2dv8rd2g00u9ig8qk5qro8.apps.googleusercontent.com",
-              "client_type": 2,
-              "ios_info": {
-                "bundle_id": "com.1st4connect.RMDCT"
-              }
-            }
-          ]
-        }
-      }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:706347273026:android:9c418df1c2f44551",
-        "android_client_info": {
-          "package_name": "com.demo_teacher.www"
-        }
-      },
-      "oauth_client": [
-        {
-          "client_id": "706347273026-8vo824bpm3rtgm9una08hkjsaq2fe2sf.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
-      "api_key": [
-        {
-          "current_key": "AIzaSyA-af-OSHU5TQbbekvGOUymei5tMjxAmEQ"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "706347273026-8vo824bpm3rtgm9una08hkjsaq2fe2sf.apps.googleusercontent.com",
-              "client_type": 3
-            },
-            {
-              "client_id": "706347273026-ajkrmeenqp2dv8rd2g00u9ig8qk5qro8.apps.googleusercontent.com",
-              "client_type": 2,
-              "ios_info": {
-                "bundle_id": "com.1st4connect.RMDCT"
-              }
-            }
-          ]
-        }
-      }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:706347273026:android:d6df93637ba07397d096db",
-        "android_client_info": {
-          "package_name": "com.first4connect.rmdc"
-        }
-      },
-      "oauth_client": [
-        {
-          "client_id": "706347273026-8vo824bpm3rtgm9una08hkjsaq2fe2sf.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
-      "api_key": [
-        {
-          "current_key": "AIzaSyA-af-OSHU5TQbbekvGOUymei5tMjxAmEQ"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "706347273026-8vo824bpm3rtgm9una08hkjsaq2fe2sf.apps.googleusercontent.com",
-              "client_type": 3
-            },
-            {
-              "client_id": "706347273026-ajkrmeenqp2dv8rd2g00u9ig8qk5qro8.apps.googleusercontent.com",
-              "client_type": 2,
-              "ios_info": {
-                "bundle_id": "com.1st4connect.RMDCT"
-              }
-            }
-          ]
-        }
-      }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:706347273026:android:efcbec20326f9a59d096db",
-        "android_client_info": {
-          "package_name": "com.rmdc.www"
-        }
-      },
-      "oauth_client": [
-        {
-          "client_id": "706347273026-8vo824bpm3rtgm9una08hkjsaq2fe2sf.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
-      "api_key": [
-        {
-          "current_key": "AIzaSyA-af-OSHU5TQbbekvGOUymei5tMjxAmEQ"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "706347273026-8vo824bpm3rtgm9una08hkjsaq2fe2sf.apps.googleusercontent.com",
-              "client_type": 3
-            },
-            {
-              "client_id": "706347273026-ajkrmeenqp2dv8rd2g00u9ig8qk5qro8.apps.googleusercontent.com",
-              "client_type": 2,
-              "ios_info": {
-                "bundle_id": "com.1st4connect.RMDCT"
-              }
-            }
-          ]
-        }
-      }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:706347273026:android:6043e0b28fa321be",
-        "android_client_info": {
-          "package_name": "com.rmdc_student.www"
-        }
-      },
-      "oauth_client": [
-        {
-          "client_id": "706347273026-8vo824bpm3rtgm9una08hkjsaq2fe2sf.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
-      "api_key": [
-        {
-          "current_key": "AIzaSyA-af-OSHU5TQbbekvGOUymei5tMjxAmEQ"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "706347273026-8vo824bpm3rtgm9una08hkjsaq2fe2sf.apps.googleusercontent.com",
-              "client_type": 3
-            },
-            {
-              "client_id": "706347273026-ajkrmeenqp2dv8rd2g00u9ig8qk5qro8.apps.googleusercontent.com",
-              "client_type": 2,
-              "ios_info": {
-                "bundle_id": "com.1st4connect.RMDCT"
-              }
-            }
-          ]
-        }
-      }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:706347273026:android:fbd055546e3de808",
-        "android_client_info": {
-          "package_name": "com.rmdc_teacher.www"
-        }
-      },
-      "oauth_client": [
-        {
-          "client_id": "706347273026-8vo824bpm3rtgm9una08hkjsaq2fe2sf.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
-      "api_key": [
-        {
-          "current_key": "AIzaSyA-af-OSHU5TQbbekvGOUymei5tMjxAmEQ"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "706347273026-8vo824bpm3rtgm9una08hkjsaq2fe2sf.apps.googleusercontent.com",
-              "client_type": 3
-            },
-            {
-              "client_id": "706347273026-ajkrmeenqp2dv8rd2g00u9ig8qk5qro8.apps.googleusercontent.com",
-              "client_type": 2,
-              "ios_info": {
-                "bundle_id": "com.1st4connect.RMDCT"
-              }
             }
           ]
         }
