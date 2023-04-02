@@ -1,0 +1,155 @@
+{
+  "project_info": {
+    "project_number": "307254298294",
+    "firebase_url": "https://lmdc-f8322.firebaseio.com",
+    "project_id": "lmdc-f8322",
+    "storage_bucket": "lmdc-f8322.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:307254298294:android:f2d689a219182bc1924817",
+        "android_client_info": {
+          "package_name": "com.first4connect"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "307254298294-u3u1dgamib59ssrs56gsdo4k12s76eou.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDEPRrnICoKWhHYGomZsOk2U0o-SeACdOI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "307254298294-u3u1dgamib59ssrs56gsdo4k12s76eou.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "307254298294-388a8io87joog7me35inana0ulr4tslk.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.1st4connect.LMDCStudent"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:307254298294:android:79c0e2ba5136cb8f924817",
+        "android_client_info": {
+          "package_name": "com.first4connect.lmdc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "307254298294-u3u1dgamib59ssrs56gsdo4k12s76eou.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDEPRrnICoKWhHYGomZsOk2U0o-SeACdOI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "307254298294-u3u1dgamib59ssrs56gsdo4k12s76eou.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "307254298294-388a8io87joog7me35inana0ulr4tslk.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.1st4connect.LMDCStudent"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:307254298294:android:e47463f596689cda",
+        "android_client_info": {
+          "package_name": "com.lmdc.www"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "307254298294-u3u1dgamib59ssrs56gsdo4k12s76eou.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDEPRrnICoKWhHYGomZsOk2U0o-SeACdOI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "307254298294-u3u1dgamib59ssrs56gsdo4k12s76eou.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "307254298294-388a8io87joog7me35inana0ulr4tslk.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.1st4connect.LMDCStudent"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:307254298294:android:0dca8411f046b845",
+        "android_client_info": {
+          "package_name": "com.lmdc_teacher.www"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "307254298294-u3u1dgamib59ssrs56gsdo4k12s76eou.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDEPRrnICoKWhHYGomZsOk2U0o-SeACdOI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "307254298294-u3u1dgamib59ssrs56gsdo4k12s76eou.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "307254298294-388a8io87joog7me35inana0ulr4tslk.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.1st4connect.LMDCStudent"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
